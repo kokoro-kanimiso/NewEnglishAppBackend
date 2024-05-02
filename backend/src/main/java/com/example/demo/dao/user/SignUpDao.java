@@ -1,12 +1,10 @@
-package com.example.demo.dao;
+package com.example.demo.dao.user;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
-import com.example.demo.form.SignUpForm;
 
 @Repository
 public class SignUpDao {
@@ -21,9 +19,14 @@ public class SignUpDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 	
-	public int registerUserInfo(SignUpForm form){
-		String birthday = form.getBirthday().replace("-", "");
+	
+	/**
+	 * 新規登録のデータをDBに登録
+	 * @param form
+	 * @return
+	 */
+	public int registerUserInfo(String name, String password, String birthday){
 		String sql = "INSERT INTO  MEMBER_AUTH_INFO (name, password, birthday) VALUES (?, ?, ? )";
-		return jdbcTemplate.update(sql, form.getName(), form.getPassword(), birthday);
+		return jdbcTemplate.update(sql, name, password, birthday);
 	}
 }

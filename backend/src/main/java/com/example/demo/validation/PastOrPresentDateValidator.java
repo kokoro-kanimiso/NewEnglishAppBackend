@@ -7,7 +7,7 @@ import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
 public class PastOrPresentDateValidator implements ConstraintValidator<PastOrPresentDate, String> {
-	private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+	private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     @Override
     public void initialize(PastOrPresentDate constraintAnnotation) {
@@ -23,6 +23,7 @@ public class PastOrPresentDateValidator implements ConstraintValidator<PastOrPre
             Date date = dateFormat.parse(value);
             return !date.after(new Date()); // 未来の日付でないことを確認
         } catch (Exception e) {
+        	System.out.println("birthday value exception");
             return false; // 日付として無効な場合はバリデーションエラー
         }
     }
