@@ -5168,10 +5168,10 @@ This generated password is for development use only. Your security configuration
 2024-05-19 11:02:37 - login started
 2024-05-19 11:02:37 - SignUp Error
 2024-05-19 11:02:37 - SignUp execute start
-2024-05-19 11:02:37 - à√çÜâª: null
+2024-05-19 11:02:37 - ÔøΩ√çÔøΩÔøΩÔøΩ: null
 2024-05-19 11:02:37 - SignUp execute end
 2024-05-19 11:02:37 - SignUp execute start
-2024-05-19 11:02:37 - à√çÜâª: encodePassowrd
+2024-05-19 11:02:37 - ÔøΩ√çÔøΩÔøΩÔøΩ: encodePassowrd
 2024-05-19 11:03:22 - Could not detect default configuration classes for test class [com.example.demo.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 2024-05-19 11:03:22 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.BackendApplicationTests
 2024-05-19 11:03:22 - Restart disabled due to context in which it is running
@@ -5261,10 +5261,10 @@ This generated password is for development use only. Your security configuration
 2024-05-19 11:03:27 - login started
 2024-05-19 11:03:27 - SignUp Error
 2024-05-19 11:03:27 - SignUp execute start
-2024-05-19 11:03:27 - à√çÜâª: null
+2024-05-19 11:03:27 - ÔøΩ√çÔøΩÔøΩÔøΩ: null
 2024-05-19 11:03:27 - SignUp execute end
 2024-05-19 11:03:27 - SignUp execute start
-2024-05-19 11:03:27 - à√çÜâª: encodePassowrd
+2024-05-19 11:03:27 - ÔøΩ√çÔøΩÔøΩÔøΩ: encodePassowrd
 2024-05-19 11:49:39 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
 2024-05-19 11:49:39 - execute: Error casting value for table 'wk_member_auth_info' and column 'update_time'
 2024-05-19 11:55:01 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
@@ -5549,63 +5549,6 @@ Using generated security password: f23cd5f4-f4f9-4f14-bc94-895538bb6f4f
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2024-05-19 13:37:26 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5822ecda, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5908e6d6, org.springframework.security.web.context.SecurityContextHolderFilter@44fb6ebd, org.springframework.security.web.header.HeaderWriterFilter@64dfb31d, org.springframework.web.filter.CorsFilter@7afbf2a0, org.springframework.security.web.authentication.logout.LogoutFilter@55951fcd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cdf221a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e27f603, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a6fb62f, org.springframework.security.web.access.ExceptionTranslationFilter@6598caab, org.springframework.security.web.access.intercept.AuthorizationFilter@547aaa32]
-2024-05-19 13:37:26 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-05-19 13:37:27 - Started SignUpDaoTest in 2.104 seconds (process running for 3.641)
-2024-05-19 13:37:27 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
-2024-05-19 13:37:27 - HikariPool-1 - Starting...
-2024-05-19 13:37:27 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17d19538
-2024-05-19 13:37:27 - HikariPool-1 - Start completed.
-2024-05-19 13:37:28 - HikariPool-1 - Shutdown initiated...
-2024-05-19 13:37:28 - HikariPool-1 - Shutdown completed.
-2024-05-19 13:41:08 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-05-19 13:41:09 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
-2024-05-19 13:41:09 - Restart disabled due to context in which it is running
-2024-05-19 13:41:09 - HV000001: Hibernate Validator 8.0.1.Final
-2024-05-19 13:41:09 - Starting SignUpDaoTest using Java 17.0.1 with PID 4884 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
-2024-05-19 13:41:09 - No active profile set, falling back to 1 default profile: "default"
-2024-05-19 13:41:11 - 
-
-Using generated security password: cd4e90cd-1e1d-4a02-a7d0-f92d2d4559cc
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2024-05-19 13:41:11 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b44bfb8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e0f2c82, org.springframework.security.web.context.SecurityContextHolderFilter@1736c1e4, org.springframework.security.web.header.HeaderWriterFilter@5cdf221a, org.springframework.web.filter.CorsFilter@98637a2, org.springframework.security.web.authentication.logout.LogoutFilter@108b121f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@738a815c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2565a7d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4afd65fd, org.springframework.security.web.access.ExceptionTranslationFilter@37c2f0b4, org.springframework.security.web.access.intercept.AuthorizationFilter@7afbf2a0]
-2024-05-19 13:41:11 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-05-19 13:41:11 - Started SignUpDaoTest in 2.205 seconds (process running for 3.78)
-2024-05-19 13:41:11 - HikariPool-1 - Starting...
-2024-05-19 13:41:12 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4404a6b
-2024-05-19 13:41:12 - HikariPool-1 - Start completed.
-2024-05-19 13:41:12 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
-2024-05-19 13:41:12 - HikariPool-1 - Shutdown initiated...
-2024-05-19 13:41:12 - HikariPool-1 - Shutdown completed.
-2024-05-25 11:20:59 - SignUp execute start
-2024-05-25 11:20:59 - SignUp execute end
-2024-05-25 11:45:57 - SignUp execute start
-2024-05-25 11:45:57 - SignUp execute end
-2024-05-25 11:45:57 - SignUp execute start
-2024-05-25 11:45:57 - SignUp execute end
-2024-05-25 11:54:23 - SignUp execute start
-2024-05-25 11:54:23 - SignUp execute end
-2024-05-25 11:54:23 - SignUp execute start
-2024-05-25 11:54:23 - SignUp execute end
-2024-05-25 11:54:23 - SignUp execute start
-2024-05-25 11:54:23 - SignUp execute end
-2024-05-26 12:00:53 - Could not detect default configuration classes for test class [com.example.demo.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-05-26 12:00:53 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.BackendApplicationTests
-2024-05-26 12:00:54 - Restart disabled due to context in which it is running
-2024-05-26 12:00:54 - HV000001: Hibernate Validator 8.0.1.Final
-2024-05-26 12:00:54 - Starting BackendApplicationTests using Java 17.0.6 with PID 29548 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
-2024-05-26 12:00:54 - No active profile set, falling back to 1 default profile: "default"
-2024-05-26 12:00:55 - 
-
-Using generated security password: a6b896fa-ea0c-441b-a35c-86b04f00f345
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2024-05-26 12:00:56 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d37ee0c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a7b309b, org.springframework.security.web.context.SecurityContextHolderFilter@7da1e005, org.springframework.security.web.header.HeaderWriterFilter@231cdda8, org.springframework.web.filter.CorsFilter@4602f874, org.springframework.security.web.authentication.logout.LogoutFilter@544e3679, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55877274, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@723e2d08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7739aac4, org.springframework.security.web.access.ExceptionTranslationFilter@5111de7c, org.springframework.security.web.access.intercept.AuthorizationFilter@5cff729b]
-2024-05-26 12:00:56 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-05-26 12:00:56 - Started BackendApplicationTests in 2.605 seconds (process running for 3.831)
 2024-05-26 12:00:57 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 2024-05-26 12:00:57 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
 2024-05-26 12:00:57 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
@@ -5686,10 +5629,10 @@ This generated password is for development use only. Your security configuration
 2024-05-26 12:00:59 - SignUp execute start
 2024-05-26 12:00:59 - SignUp execute end
 2024-05-26 12:00:59 - SignUp execute start
-2024-05-26 12:00:59 - à√çÜâª: null
+2024-05-26 12:00:59 - ÔøΩ√çÔøΩÔøΩÔøΩ: null
 2024-05-26 12:00:59 - SignUp execute end
 2024-05-26 12:00:59 - SignUp execute start
-2024-05-26 12:00:59 - à√çÜâª: encodePassowrd
+2024-05-26 12:00:59 - ÔøΩ√çÔøΩÔøΩÔøΩ: encodePassowrd
 2024-05-26 15:09:24 - HV000001: Hibernate Validator 8.0.1.Final
 2024-05-26 15:09:24 - Starting SampleDynamoReg using Java 17.0.1 with PID 13316 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
 2024-05-26 15:09:24 - No active profile set, falling back to 1 default profile: "default"
