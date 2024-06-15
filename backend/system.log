@@ -6658,3 +6658,75 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195)
 	... 24 common frames omitted
+2024-06-15 17:15:52 - Starting BackendApplication using Java 17.0.1 with PID 25764 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-15 17:15:52 - No active profile set, falling back to 1 default profile: "default"
+2024-06-15 17:15:52 - Tomcat initialized with port 8080 (http)
+2024-06-15 17:15:52 - Starting service [Tomcat]
+2024-06-15 17:15:52 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-15 17:15:52 - Initializing Spring embedded WebApplicationContext
+2024-06-15 17:15:52 - Root WebApplicationContext: initialization completed in 415 ms
+2024-06-15 17:15:52 - HikariPool-7 - Starting...
+2024-06-15 17:15:52 - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6440cf78
+2024-06-15 17:15:52 - HikariPool-7 - Start completed.
+2024-06-15 17:15:52 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-15 17:15:52 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'regWordDao' defined in file [C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes\com\example\demo\dao\user\RegWordDao.class]: Failed to instantiate [com.example.demo.dao.user.RegWordDao]: Constructor threw exception
+2024-06-15 17:15:52 - HikariPool-7 - Shutdown initiated...
+2024-06-15 17:15:52 - HikariPool-7 - Shutdown completed.
+2024-06-15 17:15:52 - Stopping service [Tomcat]
+2024-06-15 17:15:52 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-15 17:15:52 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'regWordDao' defined in file [C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes\com\example\demo\dao\user\RegWordDao.class]: Failed to instantiate [com.example.demo.dao.user.RegWordDao]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.demo.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.dao.user.RegWordDao]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	インポートされた com.amazonaws は見つかりません
+	インポートされた com.amazonaws は見つかりません
+	インポートされた com.amazonaws は見つかりません
+	インポートされた com.amazonaws は見つかりません
+	AmazonDynamoDB を型に解決できません
+	AttributeValue を型に解決できません
+	AttributeValue を型に解決できません
+	AttributeValue を型に解決できません
+	AttributeValue を型に解決できません
+	AttributeValue を型に解決できません
+	PutItemRequest を型に解決できません
+	PutItemRequest を型に解決できません
+	PutItemResult を型に解決できません
+	AmazonDynamoDB を型に解決できません
+
+	at com.example.demo.dao.user.RegWordDao.<init>(RegWordDao.java:11)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195)
+	... 24 common frames omitted
