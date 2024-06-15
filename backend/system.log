@@ -4912,3 +4912,1507 @@ This generated password is for development use only. Your security configuration
 2024-05-12 00:15:15 - 暗号化: $2a$10$hbqPWaZADYKuauoYuakcPOTP7Xdk3ozRImMyq.0ITimMmMxfS0n3.
 2024-05-12 00:15:15 - SignUp execute end
 2024-05-12 00:15:15 - Login end
+2024-05-12 10:24:15 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=9h47m44s114ms934µs600ns).
+2024-05-13 00:24:22 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=13h58m4s477ms318µs).
+2024-05-13 10:24:30 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=10h7s211ms672µs800ns).
+2024-05-13 23:06:56 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=12h40m25s195ms870µs700ns).
+2024-05-13 23:35:55 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=25m56s641ms359µs600ns).
+2024-05-14 00:58:29 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=21m1s363ms13µs500ns).
+2024-05-14 09:11:31 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=7h44m31s483ms841µs400ns).
+2024-05-18 10:09:37 - HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=4d57m15s158ms900µs).
+2024-05-18 10:12:38 - Application shutdown requested.
+2024-05-18 10:12:38 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-05-18 10:12:38 - HikariPool-11 - Shutdown initiated...
+2024-05-18 10:12:38 - HikariPool-11 - Shutdown completed.
+2024-05-18 13:16:37 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:16:37 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-18 13:16:37 - Restart disabled due to context in which it is running
+2024-05-18 13:16:38 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-18 13:16:38 - Starting LoginControllerTest using Java 17.0.1 with PID 21608 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-18 13:16:38 - No active profile set, falling back to 1 default profile: "default"
+2024-05-18 13:16:40 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18 13:16:40 - 
+
+Using generated security password: b7341aef-dea8-4fea-808a-91699b8b3a87
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-18 13:16:40 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@628ba266, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1231a1be, org.springframework.security.web.context.SecurityContextHolderFilter@6cceb281, org.springframework.security.web.header.HeaderWriterFilter@2fc7fa6e, org.springframework.web.filter.CorsFilter@1d77746b, org.springframework.security.web.csrf.CsrfFilter@b94703b, org.springframework.security.web.authentication.logout.LogoutFilter@699e0bf0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d24cdd9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b791dca, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ced17f3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@75e0a54c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@619c3546, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29090809, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@734a149a, org.springframework.security.web.access.ExceptionTranslationFilter@26ffd2c0, org.springframework.security.web.access.intercept.AuthorizationFilter@49e479da]
+2024-05-18 13:16:40 - Initializing Spring TestDispatcherServlet ''
+2024-05-18 13:16:40 - Initializing Servlet ''
+2024-05-18 13:16:40 - Completed initialization in 1 ms
+2024-05-18 13:16:40 - Started LoginControllerTest in 3.085 seconds (process running for 4.303)
+2024-05-18 13:16:41 - Login start
+2024-05-18 13:16:41 - Login end
+2024-05-18 13:22:32 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:22:32 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-18 13:22:32 - Restart disabled due to context in which it is running
+2024-05-18 13:22:33 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-18 13:22:33 - Starting LoginControllerTest using Java 17.0.1 with PID 34116 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-18 13:22:33 - No active profile set, falling back to 1 default profile: "default"
+2024-05-18 13:22:35 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18 13:22:35 - 
+
+Using generated security password: 1fa6d93c-371c-41fe-9d6f-90fbb003cf64
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-18 13:22:35 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@699e0bf0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2499b971, org.springframework.security.web.context.SecurityContextHolderFilter@6fc1a8f6, org.springframework.security.web.header.HeaderWriterFilter@3d1c52f5, org.springframework.web.filter.CorsFilter@36d697ab, org.springframework.security.web.csrf.CsrfFilter@16e195cf, org.springframework.security.web.authentication.logout.LogoutFilter@7f8c48f3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12f9f896, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4d290757, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28831d69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b24ddd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2037f12b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@687a0e40, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@315b4202, org.springframework.security.web.access.ExceptionTranslationFilter@5eeee124, org.springframework.security.web.access.intercept.AuthorizationFilter@6736f40f]
+2024-05-18 13:22:35 - Initializing Spring TestDispatcherServlet ''
+2024-05-18 13:22:35 - Initializing Servlet ''
+2024-05-18 13:22:35 - Completed initialization in 1 ms
+2024-05-18 13:22:35 - Started LoginControllerTest in 2.902 seconds (process running for 3.95)
+2024-05-18 13:22:35 - Login start
+2024-05-18 13:22:35 - Login end
+2024-05-18 13:22:35 - Login start
+2024-05-18 13:22:35 - Name must not be empty
+2024-05-18 13:27:51 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:27:52 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-18 13:27:52 - Restart disabled due to context in which it is running
+2024-05-18 13:27:52 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-18 13:27:52 - Starting LoginControllerTest using Java 17.0.1 with PID 37796 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-18 13:27:52 - No active profile set, falling back to 1 default profile: "default"
+2024-05-18 13:27:54 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18 13:27:54 - 
+
+Using generated security password: 751dd87b-5a61-4086-a282-e0248c7a8201
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-18 13:27:54 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@e162a35, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1124910c, org.springframework.security.web.context.SecurityContextHolderFilter@67a8bcbb, org.springframework.security.web.header.HeaderWriterFilter@5e24592e, org.springframework.web.filter.CorsFilter@f849027, org.springframework.security.web.csrf.CsrfFilter@67b5e613, org.springframework.security.web.authentication.logout.LogoutFilter@45571cfc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@171aa66, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7cca31fc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4a9869a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c16677c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26ffd2c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d28c214, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75e0a54c, org.springframework.security.web.access.ExceptionTranslationFilter@3ac0a14b, org.springframework.security.web.access.intercept.AuthorizationFilter@6a51ae7c]
+2024-05-18 13:27:54 - Initializing Spring TestDispatcherServlet ''
+2024-05-18 13:27:54 - Initializing Servlet ''
+2024-05-18 13:27:54 - Completed initialization in 1 ms
+2024-05-18 13:27:55 - Started LoginControllerTest in 2.942 seconds (process running for 3.952)
+2024-05-18 13:27:55 - Login start
+2024-05-18 13:27:55 - Login end
+2024-05-18 13:27:55 - Login start
+2024-05-18 13:27:55 - Name must not be empty
+2024-05-18 13:40:11 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:40:11 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-18 13:40:11 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Login]: Login does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:40:11 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Login
+2024-05-18 13:40:11 - Restart disabled due to context in which it is running
+2024-05-18 13:40:11 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-18 13:40:12 - Starting LoginControllerTest using Java 17.0.1 with PID 34208 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-18 13:40:12 - No active profile set, falling back to 1 default profile: "default"
+2024-05-18 13:40:14 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18 13:40:14 - 
+
+Using generated security password: c73e6ffd-dd15-4403-beaf-5c48ec47d66e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-18 13:40:14 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1da75dde, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c5f0edc, org.springframework.security.web.context.SecurityContextHolderFilter@5df92089, org.springframework.security.web.header.HeaderWriterFilter@7548e1fb, org.springframework.web.filter.CorsFilter@153cfd86, org.springframework.security.web.csrf.CsrfFilter@26ffd2c0, org.springframework.security.web.authentication.logout.LogoutFilter@4656fcc5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@734a149a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3335afcf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7e31062c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7db791df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45571cfc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@faec277, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@595fed99, org.springframework.security.web.access.ExceptionTranslationFilter@6736f40f, org.springframework.security.web.access.intercept.AuthorizationFilter@4ced17f3]
+2024-05-18 13:40:14 - Initializing Spring TestDispatcherServlet ''
+2024-05-18 13:40:14 - Initializing Servlet ''
+2024-05-18 13:40:14 - Completed initialization in 1 ms
+2024-05-18 13:40:14 - Started LoginControllerTest in 2.781 seconds (process running for 3.82)
+2024-05-18 13:40:14 - Login start
+2024-05-18 13:40:14 - Login end
+2024-05-18 13:40:14 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:40:14 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Validation
+2024-05-18 13:40:14 - Login start
+2024-05-18 13:40:14 - Name must not be empty
+2024-05-18 13:40:14 - Login start
+2024-05-18 13:40:14 - Password must not be empty
+2024-05-18 13:40:14 - Login start
+2024-05-18 13:40:14 - Name must not be empty
+2024-05-18 13:40:14 - Login start
+2024-05-18 13:40:14 - Password must not be empty
+2024-05-18 13:44:11 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:44:11 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-18 13:44:11 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Login]: Login does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:44:11 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Login
+2024-05-18 13:44:11 - Restart disabled due to context in which it is running
+2024-05-18 13:44:12 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-18 13:44:12 - Starting LoginControllerTest using Java 17.0.1 with PID 30032 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-18 13:44:12 - No active profile set, falling back to 1 default profile: "default"
+2024-05-18 13:44:14 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18 13:44:14 - 
+
+Using generated security password: aaf8439f-2ce4-43ee-9b22-6d341755e22d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-18 13:44:14 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a2b7a35, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58186f9f, org.springframework.security.web.context.SecurityContextHolderFilter@f849027, org.springframework.security.web.header.HeaderWriterFilter@7fd751de, org.springframework.web.filter.CorsFilter@62faf77, org.springframework.security.web.csrf.CsrfFilter@2499b971, org.springframework.security.web.authentication.logout.LogoutFilter@595fed99, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1da745a2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ced17f3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1f39269d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@13cc31ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75e0a54c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40f9f60d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e321d9d, org.springframework.security.web.access.ExceptionTranslationFilter@2c16677c, org.springframework.security.web.access.intercept.AuthorizationFilter@30d5e37c]
+2024-05-18 13:44:14 - Initializing Spring TestDispatcherServlet ''
+2024-05-18 13:44:14 - Initializing Servlet ''
+2024-05-18 13:44:14 - Completed initialization in 2 ms
+2024-05-18 13:44:14 - Started LoginControllerTest in 2.721 seconds (process running for 3.755)
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Login end
+2024-05-18 13:44:14 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-18 13:44:14 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Validation
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Name must not be empty
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Password must not be empty
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Name must not be empty
+2024-05-18 13:44:14 - Login start
+2024-05-18 13:44:14 - Password must not be empty
+2024-05-19 00:35:56 - SignUp execute start
+2024-05-19 00:35:56 - 暗号化: null
+2024-05-19 00:35:56 - SignUp execute end
+2024-05-19 00:42:34 - SignUp execute start
+2024-05-19 00:42:34 - 暗号化: null
+2024-05-19 00:42:34 - SignUp execute end
+2024-05-19 00:43:54 - SignUp execute start
+2024-05-19 00:43:54 - 暗号化: null
+2024-05-19 00:43:54 - SignUp execute end
+2024-05-19 00:52:17 - SignUp execute start
+2024-05-19 00:52:17 - 暗号化: null
+2024-05-19 00:52:17 - SignUp execute end
+2024-05-19 00:52:17 - SignUp execute start
+2024-05-19 00:52:17 - 暗号化: null
+2024-05-19 00:52:17 - SignUp execute end
+2024-05-19 00:55:20 - SignUp execute start
+2024-05-19 00:55:20 - 暗号化: null
+2024-05-19 00:55:20 - SignUp execute end
+2024-05-19 00:55:20 - SignUp execute start
+2024-05-19 00:55:20 - 暗号化: encodePassowrd
+2024-05-19 00:57:56 - SignUp execute start
+2024-05-19 00:57:56 - 暗号化: null
+2024-05-19 00:57:56 - SignUp execute end
+2024-05-19 00:57:56 - SignUp execute start
+2024-05-19 00:57:56 - 暗号化: null
+2024-05-19 00:57:56 - SignUp execute end
+2024-05-19 11:02:32 - Could not detect default configuration classes for test class [com.example.demo.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:32 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.BackendApplicationTests
+2024-05-19 11:02:32 - Restart disabled due to context in which it is running
+2024-05-19 11:02:32 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 11:02:33 - Starting BackendApplicationTests using Java 17.0.6 with PID 8096 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:02:33 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:02:34 - 
+
+Using generated security password: 88135077-0bb5-4a1b-9ffe-a8af185c7064
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:02:34 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@fb5aeed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73893ec1, org.springframework.security.web.context.SecurityContextHolderFilter@5aa781f2, org.springframework.security.web.header.HeaderWriterFilter@21a46ff1, org.springframework.web.filter.CorsFilter@37af24cb, org.springframework.security.web.authentication.logout.LogoutFilter@3dc68586, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d25ba9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3830f918, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7926352f, org.springframework.security.web.access.ExceptionTranslationFilter@44598ef7, org.springframework.security.web.access.intercept.AuthorizationFilter@3c88191b]
+2024-05-19 11:02:35 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:02:35 - Started BackendApplicationTests in 2.372 seconds (process running for 3.588)
+2024-05-19 11:02:36 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:36 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-19 11:02:36 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:36 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Validation
+2024-05-19 11:02:36 - Restart disabled due to context in which it is running
+2024-05-19 11:02:36 - Starting LoginControllerTest using Java 17.0.6 with PID 8096 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:02:36 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:02:36 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:02:36 - 
+
+Using generated security password: d596c940-f02a-42af-af17-366063986ebb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:02:36 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23e86863, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6df87ffd, org.springframework.security.web.context.SecurityContextHolderFilter@2c2e5e72, org.springframework.security.web.header.HeaderWriterFilter@3d57fb9e, org.springframework.web.filter.CorsFilter@c1f0c7b, org.springframework.security.web.csrf.CsrfFilter@771cbd13, org.springframework.security.web.authentication.logout.LogoutFilter@2411b935, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37c37d67, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24010875, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@642c5bb3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4535bdc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e489ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26888c31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e79c25, org.springframework.security.web.access.ExceptionTranslationFilter@229749f0, org.springframework.security.web.access.intercept.AuthorizationFilter@5d22ed6c]
+2024-05-19 11:02:36 - Initializing Spring TestDispatcherServlet ''
+2024-05-19 11:02:36 - Initializing Servlet ''
+2024-05-19 11:02:36 - Completed initialization in 1 ms
+2024-05-19 11:02:36 - Started LoginControllerTest in 0.598 seconds (process running for 5.311)
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Name must not be empty
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Password must not be empty
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Name must not be empty
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Password must not be empty
+2024-05-19 11:02:37 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Login]: Login does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:37 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Login
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Login start
+2024-05-19 11:02:37 - Login end
+2024-05-19 11:02:37 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest]: SignUpControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:37 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest
+2024-05-19 11:02:37 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:37 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$Validation
+2024-05-19 11:02:37 - Restart disabled due to context in which it is running
+2024-05-19 11:02:37 - Starting SignUpControllerTest using Java 17.0.6 with PID 8096 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:02:37 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:02:37 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:02:37 - 
+
+Using generated security password: 30602ada-a540-4523-980a-363431e7ae71
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:02:37 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7be1e187, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1107c465, org.springframework.security.web.context.SecurityContextHolderFilter@453e1bba, org.springframework.security.web.header.HeaderWriterFilter@7e9ed4df, org.springframework.web.filter.CorsFilter@64df8422, org.springframework.security.web.csrf.CsrfFilter@bc88295, org.springframework.security.web.authentication.logout.LogoutFilter@9734cae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c552f08, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59c00722, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2b30b627, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4fd00e10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@aade5a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51f009ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fa9971f, org.springframework.security.web.access.ExceptionTranslationFilter@341df373, org.springframework.security.web.access.intercept.AuthorizationFilter@1bd6638]
+2024-05-19 11:02:37 - Initializing Spring TestDispatcherServlet ''
+2024-05-19 11:02:37 - Initializing Servlet ''
+2024-05-19 11:02:37 - Completed initialization in 0 ms
+2024-05-19 11:02:37 - Started SignUpControllerTest in 0.378 seconds (process running for 6.126)
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - Password must not be empty
+2024-05-19 11:02:37 - Password must be exactly 8 characters
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - The date must be in the past
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - Name must not be empty
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - Name must be less than 10 characters
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - Password must be exactly 8 characters
+2024-05-19 11:02:37 - Password must not be empty
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - Name must not be empty
+2024-05-19 11:02:37 - Password must be exactly 8 characters
+2024-05-19 11:02:37 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$signup]: signup does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:02:37 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$signup
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - execute
+2024-05-19 11:02:37 - login end
+2024-05-19 11:02:37 - login started
+2024-05-19 11:02:37 - SignUp Error
+2024-05-19 11:02:37 - SignUp execute start
+2024-05-19 11:02:37 - �Í���: null
+2024-05-19 11:02:37 - SignUp execute end
+2024-05-19 11:02:37 - SignUp execute start
+2024-05-19 11:02:37 - �Í���: encodePassowrd
+2024-05-19 11:03:22 - Could not detect default configuration classes for test class [com.example.demo.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:22 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.BackendApplicationTests
+2024-05-19 11:03:22 - Restart disabled due to context in which it is running
+2024-05-19 11:03:23 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 11:03:23 - Starting BackendApplicationTests using Java 17.0.6 with PID 14576 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:03:23 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:03:24 - 
+
+Using generated security password: 49fc4535-095f-4020-9e32-2a09a292cdd0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:03:24 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31efacad, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@380ce5a3, org.springframework.security.web.context.SecurityContextHolderFilter@44598ef7, org.springframework.security.web.header.HeaderWriterFilter@5bb911c1, org.springframework.web.filter.CorsFilter@38029686, org.springframework.security.web.authentication.logout.LogoutFilter@8c12524, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17222c11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2db15f70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d9c45ee, org.springframework.security.web.access.ExceptionTranslationFilter@552fee7a, org.springframework.security.web.access.intercept.AuthorizationFilter@3dc68586]
+2024-05-19 11:03:25 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:03:25 - Started BackendApplicationTests in 2.259 seconds (process running for 3.364)
+2024-05-19 11:03:26 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:26 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-19 11:03:26 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:26 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Validation
+2024-05-19 11:03:26 - Restart disabled due to context in which it is running
+2024-05-19 11:03:26 - Starting LoginControllerTest using Java 17.0.6 with PID 14576 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:03:26 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:03:26 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:03:26 - 
+
+Using generated security password: ad73314d-98da-48ed-9ece-8929e00188da
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:03:26 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1013871e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a9051fd, org.springframework.security.web.context.SecurityContextHolderFilter@ca60688, org.springframework.security.web.header.HeaderWriterFilter@7e0883f3, org.springframework.web.filter.CorsFilter@7614378d, org.springframework.security.web.csrf.CsrfFilter@6d7556a8, org.springframework.security.web.authentication.logout.LogoutFilter@3d57fb9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e60c5a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@97b84a4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7028b5cc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5a4b8e25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ba1c1a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33568e26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c0ff7a0, org.springframework.security.web.access.ExceptionTranslationFilter@48860139, org.springframework.security.web.access.intercept.AuthorizationFilter@7a021f49]
+2024-05-19 11:03:26 - Initializing Spring TestDispatcherServlet ''
+2024-05-19 11:03:26 - Initializing Servlet ''
+2024-05-19 11:03:26 - Completed initialization in 2 ms
+2024-05-19 11:03:26 - Started LoginControllerTest in 0.598 seconds (process running for 4.978)
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Name must not be empty
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Password must not be empty
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Name must not be empty
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Password must not be empty
+2024-05-19 11:03:27 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Login]: Login does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:27 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Login
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Login start
+2024-05-19 11:03:27 - Login end
+2024-05-19 11:03:27 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest]: SignUpControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:27 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest
+2024-05-19 11:03:27 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:27 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$Validation
+2024-05-19 11:03:27 - Restart disabled due to context in which it is running
+2024-05-19 11:03:27 - Starting SignUpControllerTest using Java 17.0.6 with PID 14576 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 11:03:27 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 11:03:27 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 11:03:27 - 
+
+Using generated security password: b1067ccc-3213-4cb5-b825-8c5abf7a7296
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 11:03:27 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@aade5a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51f009ef, org.springframework.security.web.context.SecurityContextHolderFilter@2d2afc39, org.springframework.security.web.header.HeaderWriterFilter@2e1c5d1f, org.springframework.web.filter.CorsFilter@59c00722, org.springframework.security.web.csrf.CsrfFilter@558ed473, org.springframework.security.web.authentication.logout.LogoutFilter@3a00237d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e9ed4df, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6a7ab205, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c96346b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@453e1bba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e2498a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26c2f767, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9734cae, org.springframework.security.web.access.ExceptionTranslationFilter@514f2020, org.springframework.security.web.access.intercept.AuthorizationFilter@341df373]
+2024-05-19 11:03:27 - Initializing Spring TestDispatcherServlet ''
+2024-05-19 11:03:27 - Initializing Servlet ''
+2024-05-19 11:03:27 - Completed initialization in 1 ms
+2024-05-19 11:03:27 - Started SignUpControllerTest in 0.356 seconds (process running for 5.755)
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - Password must be exactly 8 characters
+2024-05-19 11:03:27 - Password must not be empty
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - The date must be in the past
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - Name must not be empty
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - Name must be less than 10 characters
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - Password must be exactly 8 characters
+2024-05-19 11:03:27 - Password must not be empty
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - Name must not be empty
+2024-05-19 11:03:27 - Password must be exactly 8 characters
+2024-05-19 11:03:27 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$signup]: signup does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 11:03:27 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$signup
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - execute
+2024-05-19 11:03:27 - login end
+2024-05-19 11:03:27 - login started
+2024-05-19 11:03:27 - SignUp Error
+2024-05-19 11:03:27 - SignUp execute start
+2024-05-19 11:03:27 - �Í���: null
+2024-05-19 11:03:27 - SignUp execute end
+2024-05-19 11:03:27 - SignUp execute start
+2024-05-19 11:03:27 - �Í���: encodePassowrd
+2024-05-19 11:49:39 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 11:49:39 - execute: Error casting value for table 'wk_member_auth_info' and column 'update_time'
+2024-05-19 11:55:01 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:17:03 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:26:50 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:26:50 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:26:50 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:26:50 - Restart disabled due to context in which it is running
+2024-05-19 12:26:51 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:26:51 - Starting SignUpDaoTest using Java 17.0.1 with PID 8404 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:26:51 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:26:52 - 
+
+Using generated security password: f44ca03d-7434-4cdc-b20e-0f2d7b2c7019
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:26:52 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7534785a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46b5f061, org.springframework.security.web.context.SecurityContextHolderFilter@5889fc44, org.springframework.security.web.header.HeaderWriterFilter@667797f, org.springframework.web.filter.CorsFilter@3ba3f40d, org.springframework.security.web.authentication.logout.LogoutFilter@78318ac2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47f2c722, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52ca0ad4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@108b121f, org.springframework.security.web.access.ExceptionTranslationFilter@7e848aea, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd3fc29]
+2024-05-19 12:26:52 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:26:53 - Started SignUpDaoTest in 2.192 seconds (process running for 3.742)
+2024-05-19 12:26:54 - HikariPool-1 - Starting...
+2024-05-19 12:26:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eb48298
+2024-05-19 12:26:54 - HikariPool-1 - Start completed.
+2024-05-19 12:26:54 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:26:54 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:26:54 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:31:55 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:31:55 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:31:56 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:31:56 - Restart disabled due to context in which it is running
+2024-05-19 12:31:56 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:31:56 - Starting SignUpDaoTest using Java 17.0.1 with PID 16608 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:31:56 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:31:58 - 
+
+Using generated security password: 3a37726d-732c-429e-969e-f7949591ecec
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:31:58 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@547aaa32, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@472c9f88, org.springframework.security.web.context.SecurityContextHolderFilter@64dfb31d, org.springframework.security.web.header.HeaderWriterFilter@37c2f0b4, org.springframework.web.filter.CorsFilter@37a67cf, org.springframework.security.web.authentication.logout.LogoutFilter@236861da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17b6ad97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44fb6ebd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5822ecda, org.springframework.security.web.access.ExceptionTranslationFilter@184751f3, org.springframework.security.web.access.intercept.AuthorizationFilter@b5312df]
+2024-05-19 12:31:58 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:31:58 - Started SignUpDaoTest in 2.145 seconds (process running for 3.662)
+2024-05-19 12:31:59 - HikariPool-1 - Starting...
+2024-05-19 12:31:59 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ead3c67
+2024-05-19 12:31:59 - HikariPool-1 - Start completed.
+2024-05-19 12:31:59 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:31:59 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:31:59 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:40:36 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:40:36 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:40:37 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:40:37 - Restart disabled due to context in which it is running
+2024-05-19 12:40:37 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:40:37 - Starting SignUpDaoTest using Java 17.0.1 with PID 13812 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:40:37 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:40:39 - 
+
+Using generated security password: 40ea934c-086b-4eef-8a9c-970ad21450ac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:40:39 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3686389, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71e2c6d8, org.springframework.security.web.context.SecurityContextHolderFilter@2ab9e43e, org.springframework.security.web.header.HeaderWriterFilter@7d88fa9c, org.springframework.web.filter.CorsFilter@4228f269, org.springframework.security.web.authentication.logout.LogoutFilter@1736c1e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fd80300, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1805383, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@376b5cb2, org.springframework.security.web.access.ExceptionTranslationFilter@561d88ee, org.springframework.security.web.access.intercept.AuthorizationFilter@4cd7d5e1]
+2024-05-19 12:40:39 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:40:39 - Started SignUpDaoTest in 2.112 seconds (process running for 3.626)
+2024-05-19 12:40:40 - HikariPool-1 - Starting...
+2024-05-19 12:40:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b787274
+2024-05-19 12:40:40 - HikariPool-1 - Start completed.
+2024-05-19 12:40:40 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:40:40 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:43:13 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:43:13 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:43:13 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:43:13 - Restart disabled due to context in which it is running
+2024-05-19 12:43:14 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:43:14 - Starting SignUpDaoTest using Java 17.0.1 with PID 13496 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:43:14 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:43:15 - 
+
+Using generated security password: 7c230129-3cf5-40e9-aa90-56c4df18137f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:43:15 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35dcd032, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4522d793, org.springframework.security.web.context.SecurityContextHolderFilter@61d2f267, org.springframework.security.web.header.HeaderWriterFilter@819fb19, org.springframework.web.filter.CorsFilter@64dfb31d, org.springframework.security.web.authentication.logout.LogoutFilter@56ec6960, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@85ab964, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6481dce5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4438b862, org.springframework.security.web.access.ExceptionTranslationFilter@21527b8, org.springframework.security.web.access.intercept.AuthorizationFilter@4536a715]
+2024-05-19 12:43:15 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:43:16 - Started SignUpDaoTest in 2.133 seconds (process running for 3.666)
+2024-05-19 12:43:16 - HikariPool-1 - Starting...
+2024-05-19 12:43:16 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e4ac598
+2024-05-19 12:43:16 - HikariPool-1 - Start completed.
+2024-05-19 12:43:16 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:43:17 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:43:17 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:50:02 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:50:02 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:50:03 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:50:03 - Restart disabled due to context in which it is running
+2024-05-19 12:50:03 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:50:03 - Starting SignUpDaoTest using Java 17.0.1 with PID 25464 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:50:03 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:50:04 - 
+
+Using generated security password: 3fe2bfb7-7ec5-40df-8dc9-791118ee046a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:50:04 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f409872, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@547aaa32, org.springframework.security.web.context.SecurityContextHolderFilter@4522d793, org.springframework.security.web.header.HeaderWriterFilter@6658f08a, org.springframework.web.filter.CorsFilter@472c9f88, org.springframework.security.web.authentication.logout.LogoutFilter@4ab66127, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4438b862, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17b6ad97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37a67cf, org.springframework.security.web.access.ExceptionTranslationFilter@667797f, org.springframework.security.web.access.intercept.AuthorizationFilter@2ff498b0]
+2024-05-19 12:50:05 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:50:05 - Started SignUpDaoTest in 2.122 seconds (process running for 3.644)
+2024-05-19 12:50:05 - HikariPool-1 - Starting...
+2024-05-19 12:50:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fe87c0e
+2024-05-19 12:50:05 - HikariPool-1 - Start completed.
+2024-05-19 12:50:06 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 12:50:06 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:50:06 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:50:06 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:52:57 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:52:57 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:52:57 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:52:57 - Restart disabled due to context in which it is running
+2024-05-19 12:52:58 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:52:58 - Starting SignUpDaoTest using Java 17.0.1 with PID 13712 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:52:58 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:52:59 - 
+
+Using generated security password: 4eead96b-477f-4de0-aedf-bb9c71ab4592
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:52:59 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f409872, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@547aaa32, org.springframework.security.web.context.SecurityContextHolderFilter@4522d793, org.springframework.security.web.header.HeaderWriterFilter@6658f08a, org.springframework.web.filter.CorsFilter@472c9f88, org.springframework.security.web.authentication.logout.LogoutFilter@4ab66127, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4438b862, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17b6ad97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37a67cf, org.springframework.security.web.access.ExceptionTranslationFilter@667797f, org.springframework.security.web.access.intercept.AuthorizationFilter@2ff498b0]
+2024-05-19 12:52:59 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:53:00 - Started SignUpDaoTest in 2.155 seconds (process running for 3.697)
+2024-05-19 12:53:00 - HikariPool-1 - Starting...
+2024-05-19 12:53:00 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fe87c0e
+2024-05-19 12:53:00 - HikariPool-1 - Start completed.
+2024-05-19 12:53:00 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 12:53:01 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:53:01 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:53:01 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:53:45 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:53:45 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:53:46 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:53:46 - Restart disabled due to context in which it is running
+2024-05-19 12:53:46 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:53:46 - Starting SignUpDaoTest using Java 17.0.1 with PID 24920 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:53:46 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:53:47 - 
+
+Using generated security password: aa1fe240-6015-4c1d-a663-3c75f283977b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:53:48 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7608a838, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75839695, org.springframework.security.web.context.SecurityContextHolderFilter@786a3477, org.springframework.security.web.header.HeaderWriterFilter@fabef2e, org.springframework.web.filter.CorsFilter@21a6a494, org.springframework.security.web.authentication.logout.LogoutFilter@4cd7d5e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ce561cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56ec6960, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@794c5f5e, org.springframework.security.web.access.ExceptionTranslationFilter@2ab9e43e, org.springframework.security.web.access.intercept.AuthorizationFilter@77ce88c4]
+2024-05-19 12:53:48 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:53:48 - Started SignUpDaoTest in 2.138 seconds (process running for 3.679)
+2024-05-19 12:53:48 - HikariPool-1 - Starting...
+2024-05-19 12:53:48 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@126a9a3d
+2024-05-19 12:53:48 - HikariPool-1 - Start completed.
+2024-05-19 12:53:49 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 12:53:49 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:53:49 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:53:49 - HikariPool-1 - Shutdown completed.
+2024-05-19 12:58:50 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 12:58:50 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 12:58:50 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 12:58:50 - Restart disabled due to context in which it is running
+2024-05-19 12:58:51 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 12:58:51 - Starting SignUpDaoTest using Java 17.0.1 with PID 15564 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 12:58:51 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 12:58:52 - 
+
+Using generated security password: 587f9d8c-ed14-4873-a00a-49a51bf73933
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 12:58:52 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37a67cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5822ecda, org.springframework.security.web.context.SecurityContextHolderFilter@17b6ad97, org.springframework.security.web.header.HeaderWriterFilter@4522d793, org.springframework.web.filter.CorsFilter@5908e6d6, org.springframework.security.web.authentication.logout.LogoutFilter@2cd3fc29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5da57a64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cdf221a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7afbf2a0, org.springframework.security.web.access.ExceptionTranslationFilter@5889fc44, org.springframework.security.web.access.intercept.AuthorizationFilter@5f409872]
+2024-05-19 12:58:52 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 12:58:53 - Started SignUpDaoTest in 2.187 seconds (process running for 3.711)
+2024-05-19 12:58:53 - HikariPool-1 - Starting...
+2024-05-19 12:58:53 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@965bcbc
+2024-05-19 12:58:53 - HikariPool-1 - Start completed.
+2024-05-19 12:58:54 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 12:58:54 - HikariPool-1 - Shutdown initiated...
+2024-05-19 12:58:54 - HikariPool-1 - Shutdown completed.
+2024-05-19 13:08:40 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 13:08:40 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 13:08:41 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:08:41 - Restart disabled due to context in which it is running
+2024-05-19 13:08:41 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 13:08:41 - Starting SignUpDaoTest using Java 17.0.1 with PID 11876 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 13:08:41 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 13:08:43 - 
+
+Using generated security password: 9af2ad37-b265-466d-8af2-f9ba07cbabe9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 13:08:43 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a6fb62f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65e4cb84, org.springframework.security.web.context.SecurityContextHolderFilter@7e27f603, org.springframework.security.web.header.HeaderWriterFilter@44fb6ebd, org.springframework.web.filter.CorsFilter@7b44bfb8, org.springframework.security.web.authentication.logout.LogoutFilter@46b5f061, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1736c1e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32dcfeea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e0f2c82, org.springframework.security.web.access.ExceptionTranslationFilter@4536a715, org.springframework.security.web.access.intercept.AuthorizationFilter@5822ecda]
+2024-05-19 13:08:43 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 13:08:43 - Started SignUpDaoTest in 2.09 seconds (process running for 3.613)
+2024-05-19 13:08:43 - HikariPool-1 - Starting...
+2024-05-19 13:08:43 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@671da0f9
+2024-05-19 13:08:43 - HikariPool-1 - Start completed.
+2024-05-19 13:08:44 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 13:08:44 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:08:44 - HikariPool-1 - Shutdown initiated...
+2024-05-19 13:08:44 - HikariPool-1 - Shutdown completed.
+2024-05-19 13:12:28 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 13:12:28 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 13:12:29 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:12:29 - Restart disabled due to context in which it is running
+2024-05-19 13:12:29 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 13:12:29 - Starting SignUpDaoTest using Java 17.0.1 with PID 3696 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 13:12:29 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 13:12:30 - 
+
+Using generated security password: dcd876c5-e3c3-4f2e-9407-d9a2b816d1ca
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 13:12:31 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a6fb62f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65e4cb84, org.springframework.security.web.context.SecurityContextHolderFilter@7e27f603, org.springframework.security.web.header.HeaderWriterFilter@44fb6ebd, org.springframework.web.filter.CorsFilter@7b44bfb8, org.springframework.security.web.authentication.logout.LogoutFilter@46b5f061, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1736c1e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32dcfeea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e0f2c82, org.springframework.security.web.access.ExceptionTranslationFilter@4536a715, org.springframework.security.web.access.intercept.AuthorizationFilter@5822ecda]
+2024-05-19 13:12:31 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 13:12:31 - Started SignUpDaoTest in 2.158 seconds (process running for 3.655)
+2024-05-19 13:12:31 - HikariPool-1 - Starting...
+2024-05-19 13:12:31 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d2f9e3c
+2024-05-19 13:12:31 - HikariPool-1 - Start completed.
+2024-05-19 13:12:32 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 13:12:32 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:12:32 - HikariPool-1 - Shutdown initiated...
+2024-05-19 13:12:32 - HikariPool-1 - Shutdown completed.
+2024-05-19 13:17:20 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 13:17:20 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 13:17:21 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:17:21 - Restart disabled due to context in which it is running
+2024-05-19 13:17:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 13:17:21 - Starting SignUpDaoTest using Java 17.0.1 with PID 15020 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 13:17:21 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 13:17:22 - 
+
+Using generated security password: 7f2559f2-5c6c-4063-b145-210beca5b2ac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 13:17:23 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7534785a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46b5f061, org.springframework.security.web.context.SecurityContextHolderFilter@5889fc44, org.springframework.security.web.header.HeaderWriterFilter@667797f, org.springframework.web.filter.CorsFilter@3ba3f40d, org.springframework.security.web.authentication.logout.LogoutFilter@78318ac2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47f2c722, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52ca0ad4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@108b121f, org.springframework.security.web.access.ExceptionTranslationFilter@7e848aea, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd3fc29]
+2024-05-19 13:17:23 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 13:17:23 - Started SignUpDaoTest in 2.223 seconds (process running for 3.739)
+2024-05-19 13:17:24 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 13:17:24 - HikariPool-1 - Starting...
+2024-05-19 13:17:24 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4eb48298
+2024-05-19 13:17:24 - HikariPool-1 - Start completed.
+2024-05-19 13:17:24 - Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'MySQL' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2024-05-19 13:17:24 - HikariPool-1 - Shutdown initiated...
+2024-05-19 13:17:24 - HikariPool-1 - Shutdown completed.
+2024-05-19 13:27:43 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 13:27:43 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 13:27:44 - Restart disabled due to context in which it is running
+2024-05-19 13:27:44 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 13:27:44 - Starting SignUpDaoTest using Java 17.0.1 with PID 24520 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 13:27:44 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 13:27:46 - 
+
+Using generated security password: 1b1d69dc-681d-4b6b-ae18-c1e9d41c3d1e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-19 13:27:46 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@794c5f5e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ab66127, org.springframework.security.web.context.SecurityContextHolderFilter@56ec6960, org.springframework.security.web.header.HeaderWriterFilter@786a3477, org.springframework.web.filter.CorsFilter@236861da, org.springframework.security.web.authentication.logout.LogoutFilter@3686389, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14b95942, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3375b118, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37fef327, org.springframework.security.web.access.ExceptionTranslationFilter@1805383, org.springframework.security.web.access.intercept.AuthorizationFilter@7608a838]
+2024-05-19 13:27:46 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-19 13:27:46 - Started SignUpDaoTest in 2.332 seconds (process running for 3.953)
+2024-05-19 13:27:47 - registerUserInfo start: name=test1, pass=testPass, birthday=20201221
+2024-05-19 13:27:47 - HikariPool-1 - Starting...
+2024-05-19 13:27:47 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4c7e51
+2024-05-19 13:27:47 - HikariPool-1 - Start completed.
+2024-05-19 13:27:47 - HikariPool-1 - Shutdown initiated...
+2024-05-19 13:27:47 - HikariPool-1 - Shutdown completed.
+2024-05-19 13:37:24 - Could not detect default configuration classes for test class [com.example.demo.dao.user.SignUpDaoTest]: SignUpDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-19 13:37:24 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.dao.user.SignUpDaoTest
+2024-05-19 13:37:24 - Restart disabled due to context in which it is running
+2024-05-19 13:37:25 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-19 13:37:25 - Starting SignUpDaoTest using Java 17.0.1 with PID 5380 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-19 13:37:25 - No active profile set, falling back to 1 default profile: "default"
+2024-05-19 13:37:26 - 
+
+Using generated security password: f23cd5f4-f4f9-4f14-bc94-895538bb6f4f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-26 12:00:57 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:57 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest
+2024-05-26 12:00:57 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:57 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Validation
+2024-05-26 12:00:57 - Restart disabled due to context in which it is running
+2024-05-26 12:00:57 - Starting LoginControllerTest using Java 17.0.6 with PID 29548 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-26 12:00:57 - No active profile set, falling back to 1 default profile: "default"
+2024-05-26 12:00:58 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-26 12:00:58 - 
+
+Using generated security password: a1a6fda7-0992-4404-9496-6f9b1cb0409b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-26 12:00:58 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c7673ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@113c4ad6, org.springframework.security.web.context.SecurityContextHolderFilter@78a165db, org.springframework.security.web.header.HeaderWriterFilter@3700994c, org.springframework.web.filter.CorsFilter@7be859de, org.springframework.security.web.csrf.CsrfFilter@6bfbab1c, org.springframework.security.web.authentication.logout.LogoutFilter@6516181f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6068cda1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1e429f56, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40fcaae7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@24f3fb87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eb48298, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d3bb944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fa85a55, org.springframework.security.web.access.ExceptionTranslationFilter@349aeec4, org.springframework.security.web.access.intercept.AuthorizationFilter@17d19538]
+2024-05-26 12:00:58 - Initializing Spring TestDispatcherServlet ''
+2024-05-26 12:00:58 - Initializing Servlet ''
+2024-05-26 12:00:58 - Completed initialization in 1 ms
+2024-05-26 12:00:58 - Started LoginControllerTest in 0.665 seconds (process running for 5.511)
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Name must not be empty
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Password must not be empty
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Name must not be empty
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Password must not be empty
+2024-05-26 12:00:58 - Could not detect default configuration classes for test class [com.example.demo.controller.user.LoginControllerTest$Login]: Login does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:58 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.LoginControllerTest$Login
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Login start
+2024-05-26 12:00:58 - Login end
+2024-05-26 12:00:58 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest]: SignUpControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:58 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest
+2024-05-26 12:00:58 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$Validation]: Validation does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:58 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$Validation
+2024-05-26 12:00:58 - Restart disabled due to context in which it is running
+2024-05-26 12:00:58 - Starting SignUpControllerTest using Java 17.0.6 with PID 29548 (started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-26 12:00:58 - No active profile set, falling back to 1 default profile: "default"
+2024-05-26 12:00:59 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-26 12:00:59 - 
+
+Using generated security password: 5859231e-7d3b-4c15-80f4-b5b927b54a7d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-26 12:00:59 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24ac87a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ac71b87, org.springframework.security.web.context.SecurityContextHolderFilter@1802f60c, org.springframework.security.web.header.HeaderWriterFilter@13346a64, org.springframework.web.filter.CorsFilter@6094ad4, org.springframework.security.web.csrf.CsrfFilter@51d9479c, org.springframework.security.web.authentication.logout.LogoutFilter@23eb6d13, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e96489b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4af50246, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3986b9e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56ed2baf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fcb737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a22302c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ddbbfbb, org.springframework.security.web.access.ExceptionTranslationFilter@752180c4, org.springframework.security.web.access.intercept.AuthorizationFilter@2aa65672]
+2024-05-26 12:00:59 - Initializing Spring TestDispatcherServlet ''
+2024-05-26 12:00:59 - Initializing Servlet ''
+2024-05-26 12:00:59 - Completed initialization in 1 ms
+2024-05-26 12:00:59 - Started SignUpControllerTest in 0.396 seconds (process running for 6.327)
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - Password must not be empty
+2024-05-26 12:00:59 - Password must be exactly 8 characters
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - The date must be in the past
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - Name must not be empty
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - Name must be less than 10 characters
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - Password must not be empty
+2024-05-26 12:00:59 - Password must be exactly 8 characters
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - Password must be exactly 8 characters
+2024-05-26 12:00:59 - Name must not be empty
+2024-05-26 12:00:59 - Could not detect default configuration classes for test class [com.example.demo.controller.user.SignUpControllerTest$signup]: signup does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-26 12:00:59 - Found @SpringBootConfiguration com.example.demo.BackendApplication for test class com.example.demo.controller.user.SignUpControllerTest$signup
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - execute
+2024-05-26 12:00:59 - login end
+2024-05-26 12:00:59 - login started
+2024-05-26 12:00:59 - SignUp Error
+2024-05-26 12:00:59 - SignUp execute start
+2024-05-26 12:00:59 - SignUp execute end
+2024-05-26 12:00:59 - SignUp execute start
+2024-05-26 12:00:59 - SignUp execute end
+2024-05-26 12:00:59 - SignUp execute start
+2024-05-26 12:00:59 - SignUp execute end
+2024-05-26 12:00:59 - SignUp execute start
+2024-05-26 12:00:59 - �Í���: null
+2024-05-26 12:00:59 - SignUp execute end
+2024-05-26 12:00:59 - SignUp execute start
+2024-05-26 12:00:59 - �Í���: encodePassowrd
+2024-05-26 15:09:24 - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-26 15:09:24 - Starting SampleDynamoReg using Java 17.0.1 with PID 13316 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-05-26 15:09:24 - No active profile set, falling back to 1 default profile: "default"
+2024-05-26 15:09:24 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-26 15:09:24 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-26 15:09:25 - Tomcat initialized with port 8080 (http)
+2024-05-26 15:09:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-26 15:09:25 - Starting service [Tomcat]
+2024-05-26 15:09:25 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-26 15:09:25 - Initializing Spring embedded WebApplicationContext
+2024-05-26 15:09:25 - Root WebApplicationContext: initialization completed in 1685 ms
+2024-05-26 15:09:25 - HikariPool-1 - Starting...
+2024-05-26 15:09:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55fea74b
+2024-05-26 15:09:26 - HikariPool-1 - Start completed.
+2024-05-26 15:09:26 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-05-26 15:09:26 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDBTableInitializer': Unsatisfied dependency expressed through field 'amazonDynamoDB': No qualifying bean of type 'com.amazonaws.services.dynamodbv2.AmazonDynamoDB' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-05-26 15:09:26 - HikariPool-1 - Shutdown initiated...
+2024-05-26 15:09:26 - HikariPool-1 - Shutdown completed.
+2024-05-26 15:09:26 - Stopping service [Tomcat]
+2024-05-26 15:09:26 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-26 15:09:26 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field amazonDynamoDB in com.example.demo.sample.DynamoDBTableInitializer required a bean of type 'com.amazonaws.services.dynamodbv2.AmazonDynamoDB' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.amazonaws.services.dynamodbv2.AmazonDynamoDB' in your configuration.
+
+2024-06-01 19:59:53 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-01 19:59:53 - Starting BackendApplication using Java 17.0.1 with PID 20872 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-01 19:59:53 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 19:59:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-01 19:59:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-01 19:59:54 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-01 19:59:54 - Finished Spring Data repository scanning in 5 ms. Found 0 DynamoDB repository interfaces.
+2024-06-01 19:59:54 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+2024-06-01 19:59:54 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-01 19:59:54 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:265)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:805)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.demo.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:996)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:891)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:652)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:260)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 38 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:953)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 59 common frames omitted
+2024-06-01 20:02:28 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-01 20:02:28 - Starting BackendApplication using Java 17.0.1 with PID 17232 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-01 20:02:28 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 20:02:28 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-01 20:02:28 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-01 20:02:29 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-01 20:02:29 - Finished Spring Data repository scanning in 12 ms. Found 0 DynamoDB repository interfaces.
+2024-06-01 20:02:29 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+2024-06-01 20:02:30 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-01 20:02:30 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/validation/ValidationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'methodValidationPostProcessor' parameter 0: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:265)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:805)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.demo.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dynamoDB-DynamoDBMapper': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:996)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:891)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:652)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:260)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 38 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'amazon.dynamodb.endpoint' in value "${amazon.dynamodb.endpoint}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:953)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 59 common frames omitted
+2024-06-01 20:04:58 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-01 20:04:58 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-01 20:04:58 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 20:04:58 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-01 20:04:58 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-01 20:04:59 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-01 20:04:59 - Finished Spring Data repository scanning in 6 ms. Found 0 DynamoDB repository interfaces.
+2024-06-01 20:05:00 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-01 20:05:00 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-01 20:05:00 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-01 20:05:01 - Tomcat initialized with port 8080 (http)
+2024-06-01 20:05:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-01 20:05:01 - Starting service [Tomcat]
+2024-06-01 20:05:01 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-01 20:05:01 - Initializing Spring embedded WebApplicationContext
+2024-06-01 20:05:01 - Root WebApplicationContext: initialization completed in 2421 ms
+2024-06-01 20:05:01 - HikariPool-1 - Starting...
+2024-06-01 20:05:01 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ac40522
+2024-06-01 20:05:01 - HikariPool-1 - Start completed.
+2024-06-01 20:05:01 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-01 20:05:01 - 
+
+Using generated security password: e59c37f8-bf03-4f2e-a1f5-6507490c4cd9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-01 20:05:02 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b7d6eb4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ebdeb41, org.springframework.security.web.context.SecurityContextHolderFilter@6a56296d, org.springframework.security.web.header.HeaderWriterFilter@60e0feda, org.springframework.web.filter.CorsFilter@2e6fa926, org.springframework.security.web.authentication.logout.LogoutFilter@318953ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a726d06, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@195f0668, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f36749b, org.springframework.security.web.access.ExceptionTranslationFilter@3d9c796e, org.springframework.security.web.access.intercept.AuthorizationFilter@10c8527]
+2024-06-01 20:05:02 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-01 20:05:02 - LiveReload server is running on port 35729
+2024-06-01 20:05:02 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-01 20:05:02 - Tomcat started on port 8080 (http) with context path ''
+2024-06-01 20:05:02 - Started BackendApplication in 4.225 seconds (process running for 5.263)
+2024-06-01 20:05:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01 20:05:05 - Initializing Servlet 'dispatcherServlet'
+2024-06-01 20:05:05 - Completed initialization in 2 ms
+2024-06-02 01:20:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h2m37s518ms382µs100ns).
+2024-06-02 04:50:09 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27m28s839ms244µs100ns).
+2024-06-02 11:14:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h23m54s672ms985µs).
+2024-06-03 06:58:57 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h42m49s330ms380µs300ns).
+2024-06-03 11:06:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h7m2s915ms425µs200ns).
+2024-06-04 01:05:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h57m5s258ms637µs300ns).
+2024-06-04 07:17:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h8m27s87ms682µs500ns).
+2024-06-04 21:09:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h52m12s489ms94µs).
+2024-06-08 11:07:47 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3d13h58m35s157ms944µs400ns).
+2024-06-08 11:12:16 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-06-08 11:12:16 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:12:16 - HikariPool-1 - Shutdown initiated...
+2024-06-08 11:12:16 - HikariPool-1 - Shutdown completed.
+2024-06-08 11:12:16 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:12:16 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:12:16 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:12:16 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:12:16 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:12:16 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:12:16 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:12:16 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:12:16 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:12:16 - Starting service [Tomcat]
+2024-06-08 11:12:16 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:12:16 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:12:16 - Root WebApplicationContext: initialization completed in 291 ms
+2024-06-08 11:12:16 - HikariPool-2 - Starting...
+2024-06-08 11:12:16 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68fc562f
+2024-06-08 11:12:16 - HikariPool-2 - Start completed.
+2024-06-08 11:12:16 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:12:16 - 
+
+Using generated security password: 91b9b268-a189-4f0d-9b15-c46dc05f068d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:12:16 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18b5b4d5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6538145e, org.springframework.security.web.context.SecurityContextHolderFilter@6464afef, org.springframework.security.web.header.HeaderWriterFilter@71b67e75, org.springframework.web.filter.CorsFilter@2a67a32a, org.springframework.security.web.authentication.logout.LogoutFilter@56e0fbba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74b9f311, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e27fba4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54c10169, org.springframework.security.web.access.ExceptionTranslationFilter@169182a0, org.springframework.security.web.access.intercept.AuthorizationFilter@4127efe0]
+2024-06-08 11:12:16 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:12:16 - LiveReload server is running on port 35729
+2024-06-08 11:12:16 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:12:16 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:12:16 - Started BackendApplication in 0.5 seconds (process running for 572848.441)
+2024-06-08 11:12:16 - Condition evaluation unchanged
+2024-06-08 11:25:49 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-06-08 11:25:49 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:25:49 - HikariPool-2 - Shutdown initiated...
+2024-06-08 11:25:49 - HikariPool-2 - Shutdown completed.
+2024-06-08 11:25:49 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:25:49 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:25:50 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:25:50 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:25:50 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:25:50 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:25:50 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:25:50 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:25:50 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:25:50 - Starting service [Tomcat]
+2024-06-08 11:25:50 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:25:50 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:25:50 - Root WebApplicationContext: initialization completed in 231 ms
+2024-06-08 11:25:50 - HikariPool-3 - Starting...
+2024-06-08 11:25:50 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@260e0dec
+2024-06-08 11:25:50 - HikariPool-3 - Start completed.
+2024-06-08 11:25:50 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:25:50 - 
+
+Using generated security password: 6412617c-2b5e-4305-987f-6c4549a11c1c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:25:50 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ad3ab79, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16f5ac65, org.springframework.security.web.context.SecurityContextHolderFilter@7dce3ea4, org.springframework.security.web.header.HeaderWriterFilter@50133d02, org.springframework.web.filter.CorsFilter@2c57a201, org.springframework.security.web.authentication.logout.LogoutFilter@77dd6cfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e218c6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32d88649, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18ff8af, org.springframework.security.web.access.ExceptionTranslationFilter@14310a8c, org.springframework.security.web.access.intercept.AuthorizationFilter@2321da8e]
+2024-06-08 11:25:50 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:25:50 - LiveReload server is running on port 35729
+2024-06-08 11:25:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:25:50 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:25:50 - Started BackendApplication in 0.388 seconds (process running for 573662.168)
+2024-06-08 11:25:50 - Condition evaluation unchanged
+2024-06-08 11:30:28 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-06-08 11:30:28 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:30:28 - HikariPool-3 - Shutdown initiated...
+2024-06-08 11:30:28 - HikariPool-3 - Shutdown completed.
+2024-06-08 11:30:28 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:30:28 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:30:28 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:30:28 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:30:28 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:30:28 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:30:28 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:30:28 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:30:28 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:30:28 - Starting service [Tomcat]
+2024-06-08 11:30:28 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:30:28 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:30:28 - Root WebApplicationContext: initialization completed in 225 ms
+2024-06-08 11:30:28 - HikariPool-4 - Starting...
+2024-06-08 11:30:28 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23bff43
+2024-06-08 11:30:28 - HikariPool-4 - Start completed.
+2024-06-08 11:30:28 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:30:28 - 
+
+Using generated security password: 88b73775-9f22-4969-8497-17370719bef0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:30:28 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7648fab8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5579a75, org.springframework.security.web.context.SecurityContextHolderFilter@3f05dee5, org.springframework.security.web.header.HeaderWriterFilter@7bb0880d, org.springframework.web.filter.CorsFilter@2b72c70d, org.springframework.security.web.authentication.logout.LogoutFilter@12fc3206, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f718aaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c102909, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@519cdfb1, org.springframework.security.web.access.ExceptionTranslationFilter@20967c94, org.springframework.security.web.access.intercept.AuthorizationFilter@c9ec14b]
+2024-06-08 11:30:28 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:30:28 - LiveReload server is running on port 35729
+2024-06-08 11:30:28 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:30:28 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:30:28 - Started BackendApplication in 0.368 seconds (process running for 573940.696)
+2024-06-08 11:30:28 - Condition evaluation unchanged
+2024-06-08 11:39:22 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-06-08 11:39:22 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:39:22 - HikariPool-4 - Shutdown initiated...
+2024-06-08 11:39:22 - HikariPool-4 - Shutdown completed.
+2024-06-08 11:39:22 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:39:22 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:39:22 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:39:22 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:39:22 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:39:22 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:39:22 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:39:22 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:39:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:39:22 - Starting service [Tomcat]
+2024-06-08 11:39:22 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:39:22 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:39:22 - Root WebApplicationContext: initialization completed in 191 ms
+2024-06-08 11:39:22 - HikariPool-5 - Starting...
+2024-06-08 11:39:22 - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bb68044
+2024-06-08 11:39:22 - HikariPool-5 - Start completed.
+2024-06-08 11:39:22 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:39:22 - 
+
+Using generated security password: 10b3419a-a15b-4ca7-9dfe-77d6f5d68d2d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:39:22 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3316ffc1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@137652c2, org.springframework.security.web.context.SecurityContextHolderFilter@48acaa52, org.springframework.security.web.header.HeaderWriterFilter@5b0a0442, org.springframework.web.filter.CorsFilter@36d86cc, org.springframework.security.web.authentication.logout.LogoutFilter@459cbb8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@259828cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63ec42d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bb446eb, org.springframework.security.web.access.ExceptionTranslationFilter@6815c4f3, org.springframework.security.web.access.intercept.AuthorizationFilter@205d099b]
+2024-06-08 11:39:22 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:39:22 - LiveReload server is running on port 35729
+2024-06-08 11:39:22 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:39:22 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:39:22 - Started BackendApplication in 0.33 seconds (process running for 574474.321)
+2024-06-08 11:39:22 - Condition evaluation unchanged
+2024-06-08 11:40:23 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-08 11:40:23 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:40:23 - HikariPool-5 - Shutdown initiated...
+2024-06-08 11:40:23 - HikariPool-5 - Shutdown completed.
+2024-06-08 11:40:23 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:40:23 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:40:23 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:40:23 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:40:23 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:40:23 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:40:23 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:40:23 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:40:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:40:23 - Starting service [Tomcat]
+2024-06-08 11:40:23 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:40:23 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:40:23 - Root WebApplicationContext: initialization completed in 187 ms
+2024-06-08 11:40:23 - HikariPool-6 - Starting...
+2024-06-08 11:40:23 - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ca0ec5b
+2024-06-08 11:40:23 - HikariPool-6 - Start completed.
+2024-06-08 11:40:23 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:40:23 - 
+
+Using generated security password: 3670e7d6-2e65-4655-881a-ed3f5f97380d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:40:23 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5dd4c8df, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62aadeba, org.springframework.security.web.context.SecurityContextHolderFilter@58aac5d6, org.springframework.security.web.header.HeaderWriterFilter@68257ee9, org.springframework.web.filter.CorsFilter@4c9a0d99, org.springframework.security.web.authentication.logout.LogoutFilter@35615413, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d9f21a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@787a491d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cd07ecb, org.springframework.security.web.access.ExceptionTranslationFilter@6f59432c, org.springframework.security.web.access.intercept.AuthorizationFilter@3b4f68a1]
+2024-06-08 11:40:23 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:40:23 - LiveReload server is running on port 35729
+2024-06-08 11:40:23 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:40:23 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:40:23 - Started BackendApplication in 0.325 seconds (process running for 574535.562)
+2024-06-08 11:40:23 - Condition evaluation unchanged
+2024-06-08 11:42:12 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-06-08 11:42:12 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:42:12 - HikariPool-6 - Shutdown initiated...
+2024-06-08 11:42:12 - HikariPool-6 - Shutdown completed.
+2024-06-08 11:42:12 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:42:12 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:42:12 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:42:12 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:42:12 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:42:12 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:42:13 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:42:13 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:42:13 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:42:13 - Starting service [Tomcat]
+2024-06-08 11:42:13 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:42:13 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:42:13 - Root WebApplicationContext: initialization completed in 193 ms
+2024-06-08 11:42:13 - HikariPool-7 - Starting...
+2024-06-08 11:42:13 - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f01ac7
+2024-06-08 11:42:13 - HikariPool-7 - Start completed.
+2024-06-08 11:42:13 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:42:13 - 
+
+Using generated security password: 0e5c91e9-c16c-462e-a286-c7a7b2804923
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:42:13 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27b9d02, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@eba0fbf, org.springframework.security.web.context.SecurityContextHolderFilter@4dec113c, org.springframework.security.web.header.HeaderWriterFilter@53557f71, org.springframework.web.filter.CorsFilter@7d196ea2, org.springframework.security.web.authentication.logout.LogoutFilter@29f4b72d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b014879, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c6a656c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53e2c16d, org.springframework.security.web.access.ExceptionTranslationFilter@7fdd1429, org.springframework.security.web.access.intercept.AuthorizationFilter@67b93d99]
+2024-06-08 11:42:13 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:42:13 - LiveReload server is running on port 35729
+2024-06-08 11:42:13 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:42:13 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:42:13 - Started BackendApplication in 0.334 seconds (process running for 574645.024)
+2024-06-08 11:42:13 - Condition evaluation unchanged
+2024-06-08 11:51:06 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-06-08 11:51:06 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:51:06 - HikariPool-7 - Shutdown initiated...
+2024-06-08 11:51:06 - HikariPool-7 - Shutdown completed.
+2024-06-08 11:51:06 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:51:06 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:51:06 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:51:06 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:51:06 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:51:06 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:51:06 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:51:06 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:51:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:51:06 - Starting service [Tomcat]
+2024-06-08 11:51:06 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:51:06 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:51:06 - Root WebApplicationContext: initialization completed in 232 ms
+2024-06-08 11:51:06 - HikariPool-8 - Starting...
+2024-06-08 11:51:06 - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29afc5b3
+2024-06-08 11:51:06 - HikariPool-8 - Start completed.
+2024-06-08 11:51:06 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:51:06 - 
+
+Using generated security password: 24a86bee-230a-4a53-9225-033618241345
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:51:06 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5641a551, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41b53fa9, org.springframework.security.web.context.SecurityContextHolderFilter@6218ffd0, org.springframework.security.web.header.HeaderWriterFilter@1ee7b4f2, org.springframework.web.filter.CorsFilter@3cf470a4, org.springframework.security.web.authentication.logout.LogoutFilter@5839fb53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@655a76e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e990246, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3af67c4d, org.springframework.security.web.access.ExceptionTranslationFilter@58bc689f, org.springframework.security.web.access.intercept.AuthorizationFilter@787fcf78]
+2024-06-08 11:51:06 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:51:06 - LiveReload server is running on port 35729
+2024-06-08 11:51:06 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:51:06 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:51:06 - Started BackendApplication in 0.381 seconds (process running for 575178.809)
+2024-06-08 11:51:06 - Condition evaluation unchanged
+2024-06-08 11:55:39 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-08 11:55:39 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:55:40 - HikariPool-8 - Shutdown initiated...
+2024-06-08 11:55:40 - HikariPool-8 - Shutdown completed.
+2024-06-08 11:55:40 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:55:40 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:55:40 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:55:40 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:55:40 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:55:40 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:55:40 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:55:40 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:55:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:55:40 - Starting service [Tomcat]
+2024-06-08 11:55:40 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:55:40 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:55:40 - Root WebApplicationContext: initialization completed in 185 ms
+2024-06-08 11:55:40 - HikariPool-9 - Starting...
+2024-06-08 11:55:40 - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48f5ef78
+2024-06-08 11:55:40 - HikariPool-9 - Start completed.
+2024-06-08 11:55:40 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:55:40 - 
+
+Using generated security password: 6db1e99f-6aa0-4fc7-926c-cca47ea91b0d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:55:40 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@83f1fcd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7070083, org.springframework.security.web.context.SecurityContextHolderFilter@6c0cbc3e, org.springframework.security.web.header.HeaderWriterFilter@30915da1, org.springframework.web.filter.CorsFilter@24c27623, org.springframework.security.web.authentication.logout.LogoutFilter@6afcb970, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dd8853a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59de36be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@329922f2, org.springframework.security.web.access.ExceptionTranslationFilter@7c910c6b, org.springframework.security.web.access.intercept.AuthorizationFilter@2ba7bd54]
+2024-06-08 11:55:40 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:55:40 - LiveReload server is running on port 35729
+2024-06-08 11:55:40 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:55:40 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:55:40 - Started BackendApplication in 0.326 seconds (process running for 575452.223)
+2024-06-08 11:55:40 - Condition evaluation unchanged
+2024-06-08 11:58:26 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-08 11:58:26 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:58:26 - HikariPool-9 - Shutdown initiated...
+2024-06-08 11:58:26 - HikariPool-9 - Shutdown completed.
+2024-06-08 11:58:26 - Starting BackendApplication using Java 17.0.1 with PID 32492 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-08 11:58:26 - No active profile set, falling back to 1 default profile: "default"
+2024-06-08 11:58:26 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-08 11:58:26 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-08 11:58:26 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:58:26 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:58:26 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-08 11:58:26 - Tomcat initialized with port 8080 (http)
+2024-06-08 11:58:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:58:26 - Starting service [Tomcat]
+2024-06-08 11:58:26 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-08 11:58:26 - Initializing Spring embedded WebApplicationContext
+2024-06-08 11:58:26 - Root WebApplicationContext: initialization completed in 211 ms
+2024-06-08 11:58:26 - HikariPool-10 - Starting...
+2024-06-08 11:58:26 - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@319e9c37
+2024-06-08 11:58:26 - HikariPool-10 - Start completed.
+2024-06-08 11:58:26 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-08 11:58:26 - 
+
+Using generated security password: 38782ca5-e247-4f9a-a209-40c56bc2d9ec
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-08 11:58:26 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43a3ff3c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@467bfc9d, org.springframework.security.web.context.SecurityContextHolderFilter@4daa2b38, org.springframework.security.web.header.HeaderWriterFilter@776a5b0f, org.springframework.web.filter.CorsFilter@cd8369e, org.springframework.security.web.authentication.logout.LogoutFilter@6f2d5e13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a7fe2bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5655d35e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1329485, org.springframework.security.web.access.ExceptionTranslationFilter@25473e34, org.springframework.security.web.access.intercept.AuthorizationFilter@2245e444]
+2024-06-08 11:58:26 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-08 11:58:26 - LiveReload server is running on port 35729
+2024-06-08 11:58:26 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-08 11:58:26 - Tomcat started on port 8080 (http) with context path ''
+2024-06-08 11:58:26 - Started BackendApplication in 0.355 seconds (process running for 575618.712)
+2024-06-08 11:58:26 - Condition evaluation unchanged
+2024-06-08 12:48:24 - Application shutdown requested.
+2024-06-08 12:48:24 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-08 12:48:24 - HikariPool-10 - Shutdown initiated...
+2024-06-08 12:48:24 - HikariPool-10 - Shutdown completed.
+2024-06-15 15:58:54 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-15 15:58:54 - Starting BackendApplication using Java 17.0.1 with PID 21888 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-15 15:58:54 - No active profile set, falling back to 1 default profile: "default"
+2024-06-15 15:58:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-15 15:58:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-15 15:58:55 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-15 15:58:55 - Finished Spring Data repository scanning in 6 ms. Found 0 DynamoDB repository interfaces.
+2024-06-15 15:58:55 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 15:58:56 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 15:58:56 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 15:58:56 - Tomcat initialized with port 8080 (http)
+2024-06-15 15:58:56 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-15 15:58:56 - Starting service [Tomcat]
+2024-06-15 15:58:56 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-15 15:58:56 - Initializing Spring embedded WebApplicationContext
+2024-06-15 15:58:56 - Root WebApplicationContext: initialization completed in 2155 ms
+2024-06-15 15:58:56 - HikariPool-1 - Starting...
+2024-06-15 15:58:57 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@411e92b6
+2024-06-15 15:58:57 - HikariPool-1 - Start completed.
+2024-06-15 15:58:57 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-15 15:58:57 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regWordController': Unsatisfied dependency expressed through field 'logic': Error creating bean with name 'regWordLogic': Unsatisfied dependency expressed through field 'dao': No qualifying bean of type 'com.example.demo.dao.user.RegWordDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-06-15 15:58:57 - HikariPool-1 - Shutdown initiated...
+2024-06-15 15:58:57 - HikariPool-1 - Shutdown completed.
+2024-06-15 15:58:57 - Stopping service [Tomcat]
+2024-06-15 15:58:57 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-15 15:58:57 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regWordController': Unsatisfied dependency expressed through field 'logic': Error creating bean with name 'regWordLogic': Unsatisfied dependency expressed through field 'dao': No qualifying bean of type 'com.example.demo.dao.user.RegWordDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.demo.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'regWordLogic': Unsatisfied dependency expressed through field 'dao': No qualifying bean of type 'com.example.demo.dao.user.RegWordDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.dao.user.RegWordDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1880)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 39 common frames omitted
+2024-06-15 16:11:17 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-15 16:11:17 - Starting BackendApplication using Java 17.0.1 with PID 5568 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-15 16:11:17 - No active profile set, falling back to 1 default profile: "default"
+2024-06-15 16:11:17 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-15 16:11:17 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-15 16:11:18 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-15 16:11:18 - Finished Spring Data repository scanning in 4 ms. Found 0 DynamoDB repository interfaces.
+2024-06-15 16:11:18 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:11:19 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:11:19 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:11:19 - Tomcat initialized with port 8080 (http)
+2024-06-15 16:11:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-15 16:11:19 - Starting service [Tomcat]
+2024-06-15 16:11:19 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-15 16:11:19 - Initializing Spring embedded WebApplicationContext
+2024-06-15 16:11:19 - Root WebApplicationContext: initialization completed in 1814 ms
+2024-06-15 16:11:19 - HikariPool-1 - Starting...
+2024-06-15 16:11:20 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1760df97
+2024-06-15 16:11:20 - HikariPool-1 - Start completed.
+2024-06-15 16:11:20 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-15 16:11:20 - 
+
+Using generated security password: ec544549-cb1e-45f0-b3ed-30e18b884d13
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-15 16:11:20 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@206eb6d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cd973ad, org.springframework.security.web.context.SecurityContextHolderFilter@4ed36172, org.springframework.security.web.header.HeaderWriterFilter@32204992, org.springframework.web.filter.CorsFilter@45297165, org.springframework.security.web.authentication.logout.LogoutFilter@41421e72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4828afb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e0dddd5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@443aeb42, org.springframework.security.web.access.ExceptionTranslationFilter@132264cc, org.springframework.security.web.access.intercept.AuthorizationFilter@5a4ecaa2]
+2024-06-15 16:11:20 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-15 16:11:20 - LiveReload server is running on port 35729
+2024-06-15 16:11:20 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-15 16:11:20 - Tomcat started on port 8080 (http) with context path ''
+2024-06-15 16:11:20 - Started BackendApplication in 3.337 seconds (process running for 4.505)
+2024-06-15 16:27:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15 16:27:29 - Initializing Servlet 'dispatcherServlet'
+2024-06-15 16:27:29 - Completed initialization in 2 ms
+2024-06-15 16:27:29 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-06-15 16:36:10 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-15 16:36:10 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-15 16:36:10 - HikariPool-1 - Shutdown initiated...
+2024-06-15 16:36:10 - HikariPool-1 - Shutdown completed.
+2024-06-15 16:36:10 - Starting BackendApplication using Java 17.0.1 with PID 5568 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-15 16:36:10 - No active profile set, falling back to 1 default profile: "default"
+2024-06-15 16:36:10 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-15 16:36:10 - Finished Spring Data repository scanning in 0 ms. Found 0 DynamoDB repository interfaces.
+2024-06-15 16:36:10 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:10 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:10 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:10 - Tomcat initialized with port 8080 (http)
+2024-06-15 16:36:10 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-06-15 16:36:10 - Starting service [Tomcat]
+2024-06-15 16:36:10 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-15 16:36:10 - Initializing Spring embedded WebApplicationContext
+2024-06-15 16:36:10 - Root WebApplicationContext: initialization completed in 440 ms
+2024-06-15 16:36:10 - HikariPool-2 - Starting...
+2024-06-15 16:36:10 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72102add
+2024-06-15 16:36:10 - HikariPool-2 - Start completed.
+2024-06-15 16:36:10 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-15 16:36:10 - 
+
+Using generated security password: bc453eaf-4f43-45bc-8722-4857947a7eef
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-15 16:36:11 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b5a0256, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2243e71a, org.springframework.security.web.context.SecurityContextHolderFilter@5b5ca1bc, org.springframework.security.web.header.HeaderWriterFilter@77fb685a, org.springframework.web.filter.CorsFilter@44f87734, org.springframework.security.web.authentication.logout.LogoutFilter@27a4693f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47736596, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@695de895, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d67c0d9, org.springframework.security.web.access.ExceptionTranslationFilter@502fd5f8, org.springframework.security.web.access.intercept.AuthorizationFilter@63b951fb]
+2024-06-15 16:36:11 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-15 16:36:11 - LiveReload server is running on port 35729
+2024-06-15 16:36:11 - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-06-15 16:36:11 - Tomcat started on port 8080 (http) with context path ''
+2024-06-15 16:36:11 - Started BackendApplication in 0.76 seconds (process running for 1494.696)
+2024-06-15 16:36:11 - Condition evaluation unchanged
+2024-06-15 16:36:34 - Application shutdown requested.
+2024-06-15 16:36:34 - Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-06-15 16:36:34 - HikariPool-2 - Shutdown initiated...
+2024-06-15 16:36:34 - HikariPool-2 - Shutdown completed.
+2024-06-15 16:36:47 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-15 16:36:48 - Starting BackendApplication using Java 17.0.1 with PID 25764 (C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend\target\classes started by kokor in C:\PracticeDevelop\React\NewEnglishApp\NewEnglishAppBackend\backend)
+2024-06-15 16:36:48 - No active profile set, falling back to 1 default profile: "default"
+2024-06-15 16:36:48 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-15 16:36:48 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-15 16:36:48 - Bootstrapping Spring Data DynamoDB repositories in DEFAULT mode.
+2024-06-15 16:36:48 - Finished Spring Data repository scanning in 5 ms. Found 0 DynamoDB repository interfaces.
+2024-06-15 16:36:49 - Bean 'dynamoDBConfig' of type [com.example.demo.config.DynamoDBConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:49 - Bean 'amazonDynamoDB' of type [com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:49 - Bean 'dynamoDB-DynamoDBMapperConfig' of type [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15 16:36:50 - Tomcat initialized with port 8080 (http)
+2024-06-15 16:36:50 - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-06-15 16:36:50 - Starting service [Tomcat]
+2024-06-15 16:36:50 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-15 16:36:50 - Initializing Spring embedded WebApplicationContext
+2024-06-15 16:36:50 - Root WebApplicationContext: initialization completed in 2063 ms
+2024-06-15 16:36:50 - HikariPool-1 - Starting...
+2024-06-15 16:36:50 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c16e706
+2024-06-15 16:36:50 - HikariPool-1 - Start completed.
+2024-06-15 16:36:50 - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost/test_db'
+2024-06-15 16:36:50 - 
+
+Using generated security password: 6f239d65-bb19-4e92-bea2-82450d0a4865
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-15 16:36:51 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ac9afed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50f58414, org.springframework.security.web.context.SecurityContextHolderFilter@4878b655, org.springframework.security.web.header.HeaderWriterFilter@3f192361, org.springframework.web.filter.CorsFilter@65964a38, org.springframework.security.web.authentication.logout.LogoutFilter@6c417e20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b5d9919, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c6cd8ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16d13c33, org.springframework.security.web.access.ExceptionTranslationFilter@2592f816, org.springframework.security.web.access.intercept.AuthorizationFilter@3f02a292]
+2024-06-15 16:36:51 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-15 16:36:51 - LiveReload server is running on port 35729
+2024-06-15 16:36:51 - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2024-06-15 16:36:51 - Tomcat started on port 8080 (http) with context path ''
+2024-06-15 16:36:51 - Started BackendApplication in 3.699 seconds (process running for 4.724)
+2024-06-15 16:43:57 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15 16:43:57 - Initializing Servlet 'dispatcherServlet'
+2024-06-15 16:43:57 - Completed initialization in 2 ms
+2024-06-15 16:44:40 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.example.demo.controller.user.LoginController.login(com.example.demo.form.user.LoginForm,org.springframework.validation.BindingResult)]
+2024-06-15 16:45:43 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.example.demo.controller.user.LoginController.login(com.example.demo.form.user.LoginForm,org.springframework.validation.BindingResult)]
+2024-06-15 16:46:46 - Login start
+2024-06-15 16:46:46 - SignUp execute start
+2024-06-15 16:46:46 - SignUp execute end
+2024-06-15 16:46:46 - Login fail
+2024-06-15 16:47:18 - Login start
+2024-06-15 16:47:18 - Password must not be empty
+2024-06-15 16:47:18 - Name must not be empty
+2024-06-15 16:48:23 - RegWord Start
+2024-06-15 16:48:23 - incorrectOption must not be empty
+2024-06-15 16:48:23 - word must not be empty
+2024-06-15 16:48:23 - correctOption must not be empty
+2024-06-15 16:48:23 - userId must not be empty
+2024-06-15 16:49:15 - RegWord Start
+2024-06-15 16:49:15 - RegWord End
