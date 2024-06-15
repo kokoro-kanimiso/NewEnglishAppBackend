@@ -29,15 +29,12 @@ public class LoginLogic {
 	 */
 	public boolean execute(LoginForm form) {
 		log.info("SignUp execute start");
-
-		// リクエストフォームに格納されたパスワードを暗号化
-		String encodedPassword = passwordEncoder.encode(form.getPassword());
-		log.info("暗号化: " + encodedPassword);
+		
 
 		// DB登録実行
 		List<MemberLoginInfoDto> list = dao.findLoginUserInfo(form.getName());
 		if(list != null) {
-			if(list.size() == 1 && passwordEncoder.matches(form.getPassword(), list.get(0).getPassword())) {
+			if(list.size() == 1 && passwordMatches(form.getPassword(), list.get(0).getPassword())) {
 				log.info("SignUp execute end");
 				return true;
 			}else {
@@ -46,6 +43,10 @@ public class LoginLogic {
 			}
 		}
 		return false;
+	}
+	
+	public boolean passwordMatches(String enteredPassword, String registeredPassword) {
+		return passwordEncoder.matches(enteredPassword, registeredPassword);
 	}
 
 }
