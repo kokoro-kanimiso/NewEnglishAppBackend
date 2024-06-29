@@ -2,7 +2,7 @@
 <configuration>
     <!-- File Appender -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>system.log</file>
+        <file>C:/PracticeDevelop/React/NewEnglishApp/log/sytem.log</file>
         <encoder>
             <pattern>%date{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
         </encoder>
