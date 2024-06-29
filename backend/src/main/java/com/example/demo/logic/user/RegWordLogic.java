@@ -19,9 +19,11 @@ public class RegWordLogic {
 		String userId = form.getUserId();
 		String word = form.getWord();
 		String correct = form.getCorrectOption();
-		String incorrect = form.getIncorrectOption();
+		String incorrect1 = form.getIncorrectOption1();
+		String incorrect2 = form.getIncorrectOption2();
+		String incorrect3 = form.getIncorrectOption3();
 		
-		dao.register(userId, word, correct, incorrect);
+		dao.register(userId, word, correct, incorrect1, incorrect2, incorrect3);
 	}
 	
 }

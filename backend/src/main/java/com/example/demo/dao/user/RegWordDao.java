@@ -22,14 +22,16 @@ public class RegWordDao {
 	@Autowired
 	private AmazonDynamoDB amazonDynamoDB;
 	
-	public void register(String userId, String word, String correct, String incorrect) {
-		log.debug("argument: userId=["+userId+"], word=["+word+"], correct=["+correct+"],incorrect=["+incorrect+"]");
+	public void register(String userId, String word, String correct, String incorrect1,String incorrect2,String incorrect3) {
+		log.debug("argument: userId=["+userId+"], word=["+word+"], correct=["+correct+"],incorrect1=["+incorrect1+"],incorrect1=["+incorrect1+"],incorrect2=["+incorrect2+"],incorrect3=["+incorrect3+"]");
 		
 		Map<String, AttributeValue> item = new HashMap<>();
         item.put("UserId", new AttributeValue(userId));
         item.put("Word", new AttributeValue(word));
         item.put("Correct", new AttributeValue(correct));
-        item.put("Incorrect", new AttributeValue(incorrect));
+        item.put("Incorrect1", new AttributeValue(incorrect1));
+        item.put("Incorrect2", new AttributeValue(incorrect2));
+        item.put("Incorrect3", new AttributeValue(incorrect3));
 
         PutItemRequest putItemRequest = new PutItemRequest().withTableName(TABLE_NAME).withItem(item);
         PutItemResult result = amazonDynamoDB.putItem(putItemRequest);
