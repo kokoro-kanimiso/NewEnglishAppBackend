@@ -6,8 +6,8 @@ import lombok.Data;
 @Data
 public class LoginForm {
 	
-	@NotEmpty(message = "Name must not be empty")
-	private String name;
+	@NotEmpty(message = "id must not be empty")
+	private String id;
 	
 	@NotEmpty(message = "Password must not be empty")
 	private String password;
