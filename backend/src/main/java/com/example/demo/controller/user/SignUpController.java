@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.dto.UserIdDto;
 import com.example.demo.form.user.SignUpForm;
 import com.example.demo.logic.user.SignUpLogic;
 
@@ -38,9 +39,10 @@ public class SignUpController {
 		}
 		try {
 			String res = logic.execute(form);
-			log.info(res);
+			UserIdDto dto = new UserIdDto();
+			dto.setId(res);
 			log.info("login end");
-			return ResponseEntity.ok("SignUp Success");
+			return ResponseEntity.ok(dto);
 			
 		}catch(Exception e) {
 			log.error("SignUp Error");

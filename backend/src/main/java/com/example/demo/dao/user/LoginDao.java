@@ -19,9 +19,9 @@ public class LoginDao {
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 	
-	public List<MemberLoginInfoDto> findLoginUserInfo(String name) {
-		String sql = "SELECT name,password FROM MEMBER_AUTH_INFO WHERE name = ?";
+	public List<MemberLoginInfoDto> findLoginUserInfo(String id) {
+		String sql = "SELECT name,password FROM MEMBER_AUTH_INFO WHERE ID = ?";
 		
-		return jdbcTemplate.query(sql, new MemberLoginInfoDtoMapper(),name);
+		return jdbcTemplate.query(sql, new MemberLoginInfoDtoMapper(),id);
 	}
 }
