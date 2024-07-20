@@ -34,4 +34,11 @@ public class SignUpDao {
 		String sql = "INSERT INTO  MEMBER_AUTH_INFO (name, password, birthday) VALUES (?, ?, ? )";
 		return jdbcTemplate.update(sql, name, password, birthday);
 	}
+	
+	public String selectMaxId() {
+		log.info("selectMaxId start");
+		String sql = "SELECT MAX(ID) FROM member_auth_info;";
+		String id = jdbcTemplate.queryForObject(sql, String.class);
+		return id;
+	}
 }

@@ -33,15 +33,17 @@ public class SignUpLogic {
 		
 		//リクエストフォームに格納されたパスワードを暗号化
 		String encodedPassword = encodePassword(form.getPassword());
-		log.info("暗号化: "+encodedPassword);
 		
 		//リクエストフォームに格納された誕生日を「YYMMDD」の形に変換
 		String birthday = formatBirthday(form.getBirthday());
 		
 		//DB登録実行
 		dao.registerUserInfo(form.getName(), encodedPassword, birthday);
+		
+		//ID取得
+		String id = dao.selectMaxId();
 		log.info("SignUp execute end");
-		return "execute";
+		return id;
 	}
 	
 	
