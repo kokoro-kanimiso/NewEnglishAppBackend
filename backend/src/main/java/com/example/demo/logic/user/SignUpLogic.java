@@ -32,15 +32,41 @@ public class SignUpLogic {
 		log.info("SignUp execute start");
 		
 		//リクエストフォームに格納されたパスワードを暗号化
-		String encodedPassword = passwordEncoder.encode(form.getPassword());
-		log.info("暗号化: "+encodedPassword);
+		String encodedPassword = encodePassword(form.getPassword());
 		
 		//リクエストフォームに格納された誕生日を「YYMMDD」の形に変換
-		String birthday = form.getBirthday().replace("-", "");
+		String birthday = formatBirthday(form.getBirthday());
 		
 		//DB登録実行
 		dao.registerUserInfo(form.getName(), encodedPassword, birthday);
+		
+		//ID取得
+		String id = dao.selectMaxId();
 		log.info("SignUp execute end");
-		return "execute";
+		return id;
+	}
+	
+	
+	/**
+	 *
+	 * パスワードを暗号化するメソッド
+	 * 
+	 * @param リクエストから渡された生のパスワード unEncodedPassword
+	 * @return 暗号化されたパスワード
+	 */
+	public String encodePassword(String unEncodedPassword) {
+		return passwordEncoder.encode(unEncodedPassword);
+	}
+	
+	
+	/**
+	 * 
+	 * YYYY-MM-DD形式をYYYYMMDDに変更するメソッド
+	 * 
+	 * @param リクエストから渡された誕生日 birthday
+	 * @return YYYYMMDDのフォーマットに変更したもの
+	 */
+	public String formatBirthday(String birthday) {
+		return birthday.replace("-", "");
 	}
 }

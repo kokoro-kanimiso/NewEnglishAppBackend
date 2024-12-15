@@ -32,7 +32,7 @@ public class LoginLogic {
 		
 
 		// DB登録実行
-		List<MemberLoginInfoDto> list = dao.findLoginUserInfo(form.getName());
+		List<MemberLoginInfoDto> list = dao.findLoginUserInfo(form.getId());
 		if(list != null) {
 			if(list.size() == 1 && passwordMatches(form.getPassword(), list.get(0).getPassword())) {
 				log.info("SignUp execute end");

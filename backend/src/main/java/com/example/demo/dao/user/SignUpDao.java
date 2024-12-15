@@ -19,6 +19,10 @@ public class SignUpDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 	
+	public JdbcTemplate getJdbcTemplate() {
+        return jdbcTemplate;
+    }
+	
 	
 	/**
 	 * 新規登録のデータをDBに登録
@@ -26,7 +30,15 @@ public class SignUpDao {
 	 * @return
 	 */
 	public int registerUserInfo(String name, String password, String birthday){
+		log.info("registerUserInfo start: name={}, pass={}, birthday={}", name, password, birthday);
 		String sql = "INSERT INTO  MEMBER_AUTH_INFO (name, password, birthday) VALUES (?, ?, ? )";
 		return jdbcTemplate.update(sql, name, password, birthday);
+	}
+	
+	public String selectMaxId() {
+		log.info("selectMaxId start");
+		String sql = "SELECT MAX(ID) FROM member_auth_info;";
+		String id = jdbcTemplate.queryForObject(sql, String.class);
+		return id;
 	}
 }
